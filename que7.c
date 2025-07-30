@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 void main() {
@@ -16,3 +17,17 @@ void main() {
     printf("Total Salary = %.2f\n", total);
 }
 
+=======
+#include<stdio.h>
+void main(){
+	int n;
+	printf("Enter the no.");
+	scanf("%d",&n);
+	int fact=1;
+	while(n!=0){
+		fact*=n;
+		n--;
+	}
+	printf("factorial: %d",fact);
+}
+>>>>>>> c5e31f9 (Assignment 3 add)

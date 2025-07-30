@@ -1,4 +1,5 @@
 #include<stdio.h>
+<<<<<<< HEAD
 //Write a program to check given 3 digit number is pallindrome or not.
 void main(){
 		
@@ -11,3 +12,15 @@ void main(){
 	
 }
 
+=======
+void main(){
+	int rang;
+	scanf("%d",&rang);
+	int sum=0;
+	while(rang>=0){
+		sum+=rang;
+		rang--;
+	}
+	printf("Sum: %d",sum);
+}
+>>>>>>> c5e31f9 (Assignment 3 add)
